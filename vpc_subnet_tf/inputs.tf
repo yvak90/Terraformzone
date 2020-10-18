@@ -27,9 +27,3 @@ variable avail_zones {
     type        = string
     default     = "a"
 }
-
-variable subnet_index{
-    type        = list(string)
-    default     = ["0","1","2","3"]
-    description = "subnet_tags"
-}

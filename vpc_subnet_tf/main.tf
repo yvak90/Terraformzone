@@ -18,19 +18,6 @@ resource "aws_subnet" "subnets"{
   }
 }
 
-# Loop using for_each
-# resource "aws_subnet" "subnets"{
-#   vpc_id              =  aws_vpc.main.id
-#   for_each            =  toset(var.subnet_index)
-#   cidr_block          =  cidrsubnet(var.vpc_cidr, 8 , tonumber(each.value))
-#   availability_zone   =  format("%s%s", var.region, var.avail_zones)
-#   tags                =  {
-#     Name              = var.subnet_tags[tonumber(each.value)]
-#   }
-# }
-
-
-
 # Subnet section individual
 # resource "aws_subnet" "web" {
 #   vpc_id     = aws_vpc.main.id

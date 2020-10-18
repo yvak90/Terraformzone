@@ -5,20 +5,20 @@ provider "aws" {
   # secret_key    = "xxssxsss"
 }
 
-resource "aws_s3_bucket" "terraform4" {
-  bucket = "terraform4"
+resource "aws_s3_bucket" "terraform" {
+  bucket = "ajstf3"
   tags = {
-    Name        = "terraform4"
+    Name        = "tform"
     Environment = "Dev"
     CreatedBy   = "Terraform"
   }
 }
 
-resource "aws_s3_bucket" "terraform5" {
-  bucket = "terraform5"
-  tags = {
-    Name        = "terraform5"
-    Environment = "Dev"
-    CreatedBy   = "Terraform"
-  }
-}
+# resource "aws_s3_bucket" "terraform4" {
+#   bucket = "terraform2"
+#   tags = {
+#     Name        = "terraform6"
+#     Environment = "Dev"
+#     CreatedBy   = "Terraform"
+#   }
+# }
