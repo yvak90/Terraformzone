@@ -2,7 +2,7 @@
 provider "aws" {
   region        = "ap-south-1"
   # access_key    = "xxxxss"
-  # secret_key    = "xxssx"
+  # secret_key    = "xxssxsss"
 }
 
 resource "aws_s3_bucket" "terraform4" {
