@@ -1,8 +1,8 @@
 # Configure the AWS Provider
 provider "aws" {
   region        = "ap-south-1"
-  # access_key    = "xxxx"
-  # secret_key    = "xxx"
+  # access_key    = "xxxxss"
+  # secret_key    = "xxssx"
 }
 
 resource "aws_s3_bucket" "terraform4" {
