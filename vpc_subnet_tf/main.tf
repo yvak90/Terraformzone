@@ -18,7 +18,7 @@ resource "aws_subnet" "subnets"{
   }
 }
 
-# Looping using for_each
+# Loop using for_each
 # resource "aws_subnet" "subnets"{
 #   vpc_id              =  aws_vpc.main.id
 #   for_each            =  toset(var.subnet_index)
