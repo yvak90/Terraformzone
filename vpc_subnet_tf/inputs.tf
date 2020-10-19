@@ -19,7 +19,7 @@ variable vpc_tag {
 
 variable subnet_tags {
     type        = list(string)
-    default     = ["web","app","db"] # remove mgmt
+    default     = ["web","app","db","mgmt"]
     description = "Subnet Tags"
 }
 
